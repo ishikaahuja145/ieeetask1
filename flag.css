@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.container{
+    width: 300px;
+    height: 200px;
+   position: relative;
+}
+.rec1{
+    width: 300px;
+    height: 66.6px;
+    background-color: #00A9CE;
+}
+.rec2{
+    width: 300px;
+    height: 66.6px;
+    background-color: #FDDA25;
+}
+.rec3{
+    width: 300px;
+    height: 66.6px;
+    background-color: #00A9CE;
+}
+.triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 150px solid black;
+    left: 0;
+    margin-top: -200px;
+    transform: rotateX("180 deg");
+
+}
